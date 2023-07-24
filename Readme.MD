@@ -1,9 +1,10 @@
 # Fibonacci Serisi
+Farkli bir toplama islemiyle, COK buyuk sayilari elde ediyoruz.
 Java kodlari zaten yukarida var, cikti gormek isterseniz
 ```
 https://drive.google.com/drive/folders/1Npraotv1SWmKqcLt_k8NmT5G_wn2o9MA?usp=sharing
 ```
-baglantisina tiklayabilirsiniz. icerisinde ciktilari barindiran bir txt dosyasi(1-100.000) ve bu verilerin html dosyasina yazilmis hali bulunmaktadir. Dileyenler inceleyebilir.
+baglantisina girebilirsiniz. icerisinde ciktilari barindiran bir txt dosyasi(1-100.000) ve bu verilerin html dosyasina yazilmis hali bulunmaktadir. Dileyenler inceleyebilir.
 
 
 
