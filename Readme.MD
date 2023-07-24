@@ -1,5 +1,11 @@
 # Fibonacci Serisi
 Farkli bir toplama islemiyle, COK buyuk sayilari elde ediyoruz.
+
+Algoritmanın nasıl çalıştığını, 5 dakikalık vaktnizi almayacak bir videoda Youtubea yükledim. Video liste dışı olduğu için sadece bu repodan bağlantıya erişebileceksiniz.
+```
+https://youtu.be/WWiaCRL9wTY
+```
+
 Java kodlari zaten yukarida var, cikti gormek isterseniz
 ```
 https://drive.google.com/drive/folders/1Npraotv1SWmKqcLt_k8NmT5G_wn2o9MA?usp=sharing
