@@ -1,5 +1,5 @@
 # Fibonacci Series
-Getting BIGGGGGGGGER numbers with different sum style.
+Getting SOOOO LARGE numbers with different sum style.
 I uploaded a youtube video to explain algorithm (5minute)
 `
 https://youtu.be/WWiaCRL9wTY
