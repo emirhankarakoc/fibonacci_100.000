@@ -1,12 +1,7 @@
-package org.example;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.math.BigInteger;
 
 public class Main {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         String a = "1", b = "1";
         String sonuc = "0";
 
@@ -19,27 +14,27 @@ public class Main {
             sonuc = toplayici(a, b);
 
             fibonacciSeries.append("fibonacci ").append(i).append("= \t").append(sonuc).append("\n");
-            System.out.println("fibonacci serisinin "+(i+1)+". elemani = "+sonuc);
+            System.out.println("Series "+(i+1)+". item = "+sonuc);
         }
 
-        // Dosyaya yazma işlemi
-        String filePath = "C:\\Users\\emirhan karakoc\\Desktop\\fibonacci.txt";
-        try {
-            FileWriter fileWriter = new FileWriter(filePath);
-            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-            bufferedWriter.write(fibonacciSeries.toString());
-            bufferedWriter.close();
+        // // Writing the files(no need)
+        // String filePath = "C:\\Users\\emirhan karakoc\\Desktop\\fibonacci.txt";
+        // try {
+        //     FileWriter fileWriter = new FileWriter(filePath);
+        //     BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+        //     bufferedWriter.write(fibonacciSeries.toString());
+        //     bufferedWriter.close();
 
-        } catch (IOException e) {
+        // } catch (IOException e) {
 
-        }
+        // }
 
 
 
 
     }
 
-    // Stringi tersine çeviren metot
+    //String reversing
     public static String reverse(String input) {
         int length = input.length();
         StringBuilder reversedString = new StringBuilder(length);
@@ -50,18 +45,19 @@ public class Main {
 
         return reversedString.toString();
     }
-
+    
+    //superstar method is here. this method sums 2 number with different style
     public static String toplayici(String sayi1, String sayi2) {
-        // Sayıları tersine çevirme
+        // reversing
         String sayi1Reversed = reverse(sayi1);
         String sayi2Reversed = reverse(sayi2);
 
-        // Toplama işlemi için yeni bir dizi oluşturma
+        //creating new array for sum
         double maxLength = Math.max(sayi1Reversed.length(), sayi2Reversed.length());
         maxLength++;
         byte[] dizi = new byte[(int) maxLength];
 
-        // Sayıları diziye ekleme ve taşmaları kontrol etme
+        // Adding numbers to array and checking for overflows
         for (int i = 0; i < maxLength; i++) {
             int toplam = dizi[i];
             if (i < sayi1Reversed.length()) {
@@ -79,7 +75,7 @@ public class Main {
             dizi[i] = (byte) toplam;
         }
 
-        // Sonucu elde etmek için bir String oluşturma
+        //creating response string
         String toplamaSonucu = "";
         boolean leadingZeros = true;
         for (int i = dizi.length - 1; i >= 0; i--) {
@@ -90,7 +86,8 @@ public class Main {
             toplamaSonucu += dizi[i];
         }
 
-        // Toplama Sonucunu ekrana yazdırma
+        // return sum
         return toplamaSonucu;
     }
+    
 }
