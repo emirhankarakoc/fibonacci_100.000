@@ -2,13 +2,13 @@
 Getting SOOOO LARGE numbers with different sum style.
 I uploaded a youtube video to explain algorithm (5minute)
  
-!(video)[https://youtu.be/WWiaCRL9wTY]
+https://youtu.be/WWiaCRL9wTY
  
 
 There is source code but if you want to see result (fibonacci 1->100.000) visit drive link!
-`
+ <br>
 https://drive.google.com/drive/folders/1Npraotv1SWmKqcLt_k8NmT5G_wn2o9MA?usp=sharing
-`
+ 
 
 
 
