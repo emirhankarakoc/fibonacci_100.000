@@ -1,6 +1,6 @@
 # Fibonacci with strings
 
-This Java program prints the first 100,000 Fibonacci numbers. It adds decimal numbers as strings, one digit at a time.
+This Java program prints 100,000 Fibonacci numbers. It adds decimal numbers as strings, one digit at a time.
 
 ## Why?
 
@@ -28,6 +28,6 @@ The program prints every number. You can save the output with `java Main > fibon
 
 ## Limits
 
-Strings and arrays have an index limit in Java, and your computer also needs enough memory. So this code cannot store ten billion digits in one array. It keeps the full series in memory and builds strings with `+=`, which gets slow for large output. A `StringBuilder` and writing one result at a time would help. For normal apps, Java `BigInteger` is a better choice.
+Strings and arrays have an index limit in Java, and the computer needs enough memory. Ten billion digits will not fit in one Java array. The program keeps all results in memory, so large runs can be slow. For normal apps, Java `BigInteger` is a better choice.
 
 [Video explanation](https://youtu.be/WWiaCRL9wTY)
